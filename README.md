@@ -174,6 +174,19 @@ git remote add origin https://github.com/YOUR_USERNAME/california-regression-cod
 git push -u origin main
 ```
 
+## SpecKit Workflow
+
+This repository includes SpecKit configuration under [`.specify`](.specify) and managed agent context in [AGENTS.md](AGENTS.md).
+
+For new feature work, the intended flow is:
+
+1. Create a feature spec.
+2. Generate a plan.
+3. Break the work into tasks.
+4. Implement and validate the results.
+
+The repository is set up so these artifacts live under the SpecKit directories and the agent instructions stay aligned with the current plan.
+
 ## Notes for Codex
 
-See `AGENTS.md` for project-specific coding-agent instructions.
+See [AGENTS.md](AGENTS.md) for project-specific coding-agent instructions.
